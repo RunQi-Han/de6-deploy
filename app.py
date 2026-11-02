@@ -6,7 +6,6 @@ from dash import Dash, Input, Output, callback, dcc
 app = Dash(__name__)
 server = app.server
 
-
 df = px.data.gapminder()
 
 app.layout = ddk.App(
